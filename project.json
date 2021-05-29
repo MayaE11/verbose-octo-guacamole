@@ -1,0 +1,56 @@
+{
+  "name": "Extract Attachment",
+  "description": "Blank Process",
+  "main": "Read message & download invoices.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.7.2]",
+    "UiPath.Mail.Activities": "[1.7.2]",
+    "UiPath.PDF.Activities": "[3.4.0]",
+    "UiPath.System.Activities": "[19.10.1]",
+    "UiPath.UIAutomation.Activities": "[21.4.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.10.5.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Read message & download invoices.xaml",
+      "uniqueId": "4aa1ce48-5f6f-47c3-986d-8558ab257ecd",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
